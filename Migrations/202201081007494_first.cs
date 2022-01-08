@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class InitialCreate : DbMigration
+    public partial class first : DbMigration
     {
         public override void Up()
         {
@@ -26,6 +26,8 @@
                         Discount = c.Double(nullable: false),
                         Price = c.Double(nullable: false),
                         Quantity = c.Int(nullable: false),
+                        Address = c.String(),
+                        Status = c.Boolean(nullable: false),
                         Category_id = c.Int(nullable: false),
                         User_id = c.Int(nullable: false),
                     })
@@ -53,12 +55,13 @@
                     {
                         Id = c.Int(nullable: false, identity: true),
                         Name = c.String(),
-                        Email = c.String(),
+                        Email = c.String(maxLength: 900),
                         Password = c.String(),
                         Phone = c.String(),
                         Role = c.String(),
                     })
-                .PrimaryKey(t => t.Id);
+                .PrimaryKey(t => t.Id)
+                .Index(t => t.Email, unique: true);
             
             CreateTable(
                 "dbo.Messages",
@@ -125,6 +128,7 @@
             DropIndex("dbo.Messages", new[] { "User_Id" });
             DropIndex("dbo.Messages", new[] { "Buyer_id" });
             DropIndex("dbo.Messages", new[] { "Seller_id" });
+            DropIndex("dbo.Users", new[] { "Email" });
             DropIndex("dbo.Images", new[] { "Product_id" });
             DropIndex("dbo.Products", new[] { "User_id" });
             DropIndex("dbo.Products", new[] { "Category_id" });

@@ -10,7 +10,6 @@
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            ContextKey = "Examen_ASP.Net.Data.Examen_ASPNetContext";
         }
 
         protected override void Seed(Examen_ASP.Net.Data.Examen_ASPNetContext context)

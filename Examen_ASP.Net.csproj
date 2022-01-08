@@ -153,21 +153,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202201072318081_InitialCreate.cs" />
-    <Compile Include="Migrations\202201072318081_InitialCreate.designer.cs">
-      <DependentUpon>202201072318081_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202201080041022_Edit_Product_Table.cs" />
-    <Compile Include="Migrations\202201080041022_Edit_Product_Table.designer.cs">
-      <DependentUpon>202201080041022_Edit_Product_Table.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202201080101295_Edit_User.cs" />
-    <Compile Include="Migrations\202201080101295_Edit_User.designer.cs">
-      <DependentUpon>202201080101295_Edit_User.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202201080123146_unique_email.cs" />
-    <Compile Include="Migrations\202201080123146_unique_email.designer.cs">
-      <DependentUpon>202201080123146_unique_email.cs</DependentUpon>
+    <Compile Include="Migrations\202201081007494_first.cs" />
+    <Compile Include="Migrations\202201081007494_first.designer.cs">
+      <DependentUpon>202201081007494_first.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
@@ -4503,20 +4491,6 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202201072318081_InitialCreate.resx">
-      <DependentUpon>202201072318081_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202201080041022_Edit_Product_Table.resx">
-      <DependentUpon>202201080041022_Edit_Product_Table.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202201080101295_Edit_User.resx">
-      <DependentUpon>202201080101295_Edit_User.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202201080123146_unique_email.resx">
-      <DependentUpon>202201080123146_unique_email.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <TypeScriptCompile Include="assets\js\plugins\flatpickr\l10n\ar.d.ts" />
     <TypeScriptCompile Include="assets\js\plugins\flatpickr\l10n\at.d.ts" />
     <TypeScriptCompile Include="assets\js\plugins\flatpickr\l10n\az.d.ts" />
@@ -4600,6 +4574,11 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202201081007494_first.resx">
+      <DependentUpon>202201081007494_first.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
