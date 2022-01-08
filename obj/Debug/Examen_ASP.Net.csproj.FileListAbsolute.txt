@@ -1,0 +1,201 @@
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\Examen_ASP.Net.dll.config
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\Examen_ASP.Net.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\Examen_ASP.Net.pdb
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\csc.exe
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\csc.exe.config
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\csc.rsp
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\csi.exe
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\csi.exe.config
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\csi.rsp
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.AppContext.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.Console.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.IO.Compression.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.Net.Http.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.Net.Sockets.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.ValueTuple.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.Xml.XPath.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\vbc.exe
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\vbc.exe.config
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\vbc.rsp
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\VBCSCompiler.exe
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\Antlr3.Runtime.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\EntityFramework.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\EntityFramework.SqlServer.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\Newtonsoft.Json.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\System.Web.Helpers.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\System.Web.Mvc.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\System.Web.Optimization.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\System.Web.Razor.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\System.Web.WebPages.Deployment.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\System.Web.WebPages.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\System.Web.WebPages.Razor.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\WebGrease.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\EntityFramework.xml
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\EntityFramework.SqlServer.xml
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\System.Web.Helpers.xml
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\System.Web.Mvc.xml
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\System.Web.Optimization.xml
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\System.Web.Razor.xml
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\System.Web.WebPages.xml
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\System.Web.WebPages.Deployment.xml
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\System.Web.WebPages.Razor.xml
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\Newtonsoft.Json.xml
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\Antlr3.Runtime.pdb
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\fr\System.Web.Helpers.resources.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\fr\System.Web.Optimization.resources.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\fr\System.Web.Razor.resources.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\fr\System.Web.WebPages.resources.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\fr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\fr\System.Web.WebPages.Razor.resources.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.csproj.CoreCompileInputs.cache
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.csproj.CopyComplete
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.pdb
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.Migrations.InitialCreate.resources
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.csproj.GenerateResource.cache
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.Migrations.Edit_Product_Table.resources
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.csproj.AssemblyReference.cache
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\ServiceStack.Interfaces.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.Migrations.Edit_User.resources
+C:\Users\othman charai\source\repos\Examen\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.Migrations.unique_email.resources
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\Examen_ASP.Net.dll.config
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\Examen_ASP.Net.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\Examen_ASP.Net.pdb
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\csc.exe
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\csc.exe.config
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\csc.rsp
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\csi.exe
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\csi.exe.config
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\csi.rsp
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.AppContext.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.Console.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.IO.Compression.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.Net.Http.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.Net.Sockets.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.ValueTuple.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.Xml.XPath.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\vbc.exe
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\vbc.exe.config
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\vbc.rsp
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\VBCSCompiler.exe
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\Antlr3.Runtime.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\EntityFramework.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\EntityFramework.SqlServer.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\Newtonsoft.Json.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\ServiceStack.Interfaces.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\System.Web.Helpers.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\System.Web.Mvc.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\System.Web.Optimization.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\System.Web.Razor.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\System.Web.WebPages.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\System.Web.WebPages.Razor.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\WebGrease.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\EntityFramework.xml
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\EntityFramework.SqlServer.xml
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\System.Web.Helpers.xml
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\System.Web.Mvc.xml
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\System.Web.Optimization.xml
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\System.Web.Razor.xml
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\System.Web.WebPages.xml
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\System.Web.WebPages.Razor.xml
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\Newtonsoft.Json.xml
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\Antlr3.Runtime.pdb
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\fr\System.Web.Helpers.resources.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\fr\System.Web.Optimization.resources.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\fr\System.Web.Razor.resources.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\fr\System.Web.WebPages.resources.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\fr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\fr\System.Web.WebPages.Razor.resources.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.csproj.AssemblyReference.cache
+C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.csproj.CoreCompileInputs.cache
+C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.csproj.CopyComplete
+C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.dll
+C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.pdb
+C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.Migrations.first.resources
+C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.csproj.GenerateResource.cache

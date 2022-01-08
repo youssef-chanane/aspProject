@@ -1,0 +1,313 @@
+﻿++Solution 'Examen_ASP.Net' ‎(1 sur 1 projets)
+i:{00000000-0000-0000-0000-000000000000}:Examen_ASP.Net.sln
+++Examen_ASP.Net
+i:{00000000-0000-0000-0000-000000000000}:Examen_ASP.Net
+++Properties
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\properties\
+++Références
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++Antlr3.Runtime
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++EntityFramework
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++EntityFramework.SqlServer
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++Microsoft.Bcl.AsyncInterfaces
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++Microsoft.CSharp
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++Microsoft.Web.Infrastructure
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++Newtonsoft.Json
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++ServiceStack.Interfaces
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.ComponentModel.DataAnnotations
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Configuration
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Core
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Data
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Data.DataSetExtensions
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Drawing
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.EnterpriseServices
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Net
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Net.Http
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Net.Http.WebRequest
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Runtime.CompilerServices.Unsafe
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Threading.Tasks.Extensions
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Web
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Web.Abstractions
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Web.ApplicationServices
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Web.DynamicData
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Web.Entity
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Web.Extensions
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Web.Helpers
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Web.Mvc
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Web.Optimization
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Web.Razor
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Web.Routing
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Web.Services
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Web.WebPages
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Web.WebPages.Deployment
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Web.WebPages.Razor
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Xml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++System.Xml.Linq
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++WebGrease
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:
+++App_Data
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\app_data\
+++App_Start
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\app_start\
+++Content
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\content\
+++Controllers
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\controllers\
+++CategoriesController.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\controllers\categoriescontroller.cs
+++ComplaintsController.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\controllers\complaintscontroller.cs
+++FavoritesController.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\controllers\favoritescontroller.cs
+++HomeController.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\controllers\homecontroller.cs
+++ImagesController.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\controllers\imagescontroller.cs
+++MessagesController.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\controllers\messagescontroller.cs
+++ProductsController.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\controllers\productscontroller.cs
+++UsersController.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\controllers\userscontroller.cs
+++Data
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\data\
+++fonts
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\fonts\
+++Migrations
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\migrations\
+++202201072318081_InitialCreate.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\migrations\202201072318081_initialcreate.cs
+++202201080041022_Edit_Product_Table.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\migrations\202201080041022_edit_product_table.cs
+++202201080101295_Edit_User.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\migrations\202201080101295_edit_user.cs
+++202201080123146_unique_email.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\migrations\202201080123146_unique_email.cs
+++Configuration.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\migrations\configuration.cs
+++Models
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\models\
+++Category.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\models\category.cs
+++Complaint.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\models\complaint.cs
+++Favorite.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\models\favorite.cs
+++Image.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\models\image.cs
+++Message.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\models\message.cs
+++Product.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\models\product.cs
+++User.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\models\user.cs
+++Scripts
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\scripts\
+++Views
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\
+++Categories
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\categories\
+++Create.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\categories\create.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\complaints\create.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\favorites\create.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\images\create.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\messages\create.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\products\create.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\users\create.cshtml
+++Delete.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\categories\delete.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\complaints\delete.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\favorites\delete.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\images\delete.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\messages\delete.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\products\delete.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\users\delete.cshtml
+++Details.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\categories\details.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\complaints\details.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\favorites\details.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\images\details.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\messages\details.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\products\details.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\users\details.cshtml
+++Edit.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\categories\edit.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\complaints\edit.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\favorites\edit.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\images\edit.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\messages\edit.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\products\edit.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\users\edit.cshtml
+++Index.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\categories\index.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\complaints\index.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\favorites\index.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\images\index.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\messages\index.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\products\index.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\users\index.cshtml
+++Complaints
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\complaints\
+++Favorites
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\favorites\
+++Images
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\images\
+++Messages
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\messages\
+++Products
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\products\
+++Shared
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\shared\
+++_AuthLayout.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\shared\_authlayout.cshtml
+++_Layout.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\shared\_layout.cshtml
+++Error.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\shared\error.cshtml
+++Users
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\users\
+++Login.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\users\login.cshtml
+++_ViewStart.cshtml
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\_viewstart.cshtml
+++Web.config
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\views\web.config
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\web.config
+++favicon.ico
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\favicon.ico
+++Global.asax
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\global.asax
+++packages.config
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\packages.config
+++AssemblyInfo.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\properties\assemblyinfo.cs
+++BundleConfig.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\app_start\bundleconfig.cs
+++FilterConfig.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\app_start\filterconfig.cs
+++RouteConfig.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\app_start\routeconfig.cs
+++bootstrap-theme.css
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\content\bootstrap-theme.css
+++bootstrap-theme.css.map
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\content\bootstrap-theme.css.map
+++bootstrap-theme.min.css
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\content\bootstrap-theme.min.css
+++bootstrap-theme.min.css.map
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\content\bootstrap-theme.min.css.map
+++bootstrap.css
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\content\bootstrap.css
+++bootstrap.css.map
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\content\bootstrap.css.map
+++bootstrap.min.css
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\content\bootstrap.min.css
+++bootstrap.min.css.map
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\content\bootstrap.min.css.map
+++Site.css
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\content\site.css
+++Examen_ASPNetContext.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\data\examen_aspnetcontext.cs
+++glyphicons-halflings-regular.eot
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\fonts\glyphicons-halflings-regular.eot
+++glyphicons-halflings-regular.svg
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\fonts\glyphicons-halflings-regular.svg
+++glyphicons-halflings-regular.ttf
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\fonts\glyphicons-halflings-regular.ttf
+++glyphicons-halflings-regular.woff
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\fonts\glyphicons-halflings-regular.woff
+++glyphicons-halflings-regular.woff2
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\fonts\glyphicons-halflings-regular.woff2
+++202201072318081_InitialCreate.designer.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\migrations\202201072318081_initialcreate.designer.cs
+++202201072318081_InitialCreate.resx
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\migrations\202201072318081_initialcreate.resx
+++202201080041022_Edit_Product_Table.designer.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\migrations\202201080041022_edit_product_table.designer.cs
+++202201080041022_Edit_Product_Table.resx
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\migrations\202201080041022_edit_product_table.resx
+++202201080101295_Edit_User.designer.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\migrations\202201080101295_edit_user.designer.cs
+++202201080101295_Edit_User.resx
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\migrations\202201080101295_edit_user.resx
+++202201080123146_unique_email.designer.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\migrations\202201080123146_unique_email.designer.cs
+++202201080123146_unique_email.resx
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\migrations\202201080123146_unique_email.resx
+++bootstrap.js
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\scripts\bootstrap.js
+++bootstrap.min.js
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\scripts\bootstrap.min.js
+++jquery-3.4.1.intellisense.js
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\scripts\jquery-3.4.1.intellisense.js
+++jquery-3.4.1.js
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\scripts\jquery-3.4.1.js
+++jquery-3.4.1.min.js
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\scripts\jquery-3.4.1.min.js
+++jquery-3.4.1.min.map
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\scripts\jquery-3.4.1.min.map
+++jquery-3.4.1.slim.js
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\scripts\jquery-3.4.1.slim.js
+++jquery-3.4.1.slim.min.js
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\scripts\jquery-3.4.1.slim.min.js
+++jquery-3.4.1.slim.min.map
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\scripts\jquery-3.4.1.slim.min.map
+++jquery.validate-vsdoc.js
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\scripts\jquery.validate-vsdoc.js
+++jquery.validate.js
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\scripts\jquery.validate.js
+++jquery.validate.min.js
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\scripts\jquery.validate.min.js
+++jquery.validate.unobtrusive.js
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\scripts\jquery.validate.unobtrusive.js
+++jquery.validate.unobtrusive.min.js
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\scripts\jquery.validate.unobtrusive.min.js
+++modernizr-2.8.3.js
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\scripts\modernizr-2.8.3.js
+++Global.asax.cs
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\global.asax.cs
+++Web.Debug.config
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\web.debug.config
+++Web.Release.config
+i:{525528ce-814c-4a3a-abf7-f5537dad16c3}:c:\users\othman charai\source\repos\examen\examen_asp.net\web.release.config
