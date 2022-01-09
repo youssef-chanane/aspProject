@@ -1,33 +1,93 @@
 ﻿@model IEnumerable<Examen_ASP.Net.Models.Category>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Category";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h2>Index</h2>
+    <div class="content">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-7">
+                <div class="block block-rounded">
+                    <div class="block-header block-header-default">
+                        <h3 class="block-title">Categories list</h3>
+                        <div class="block-options">
+                            <div class="block-options-item">
+                                <a class="btn btn-alt-success" href="@Url.Action("Create", "Categories")">Create</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-content">
+                        <table class="table table-vcenter">
+                            <thead>
+                                <tr>
+                                    <th class="text-center" style="width: 100px;">#</th>
+                                    <th>Name</th>
+                                    <th class="text-center" style="width: 150px;">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Name)
-        </th>
-        <th></th>
-    </tr>
+                                    <tr>
+                                        <th class="text-center" scope="row">
+                                            @Html.DisplayFor(modelItem => item.Id)
+                                        </th>
+                                        <td class="fw-semibold fs-sm">
+                                            @Html.DisplayFor(modelItem => item.Name)
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Name)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-        </td>
-    </tr>
-}
+                                        </td>
 
-</table>
+                                        <td class="text-center">
+                                            <div class="btn-group">
+                                             
+                                                <a href="@Url.Action("Edit", "Categories", new { id=item.Id })" class="btn btn-sm btn-alt-secondary js-bs-tooltip-enabled">
+                                                    <i class="fa fa-fw fa-pencil-alt"></i>
+                                                </a>
+                                                <a href="@Url.Action("Delete", "Categories", new { id=item.Id })" class="btn btn-sm btn-alt-secondary js-bs-tooltip-enabled">
+                                                    <i class="fa fa-fw fa-times"></i>
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                                </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@*@{
+        ViewBag.Title = "Index";
+    }
+
+    <h2>Index</h2>
+
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th></th>
+        </tr>
+
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+            </td>
+        </tr>
+    }
+
+    </table>*@

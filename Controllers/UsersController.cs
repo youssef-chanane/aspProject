@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Examen_ASP.Net.Data;
+using Examen_ASP.Net.Models;
+using System;
 using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
-using Examen_ASP.Net.Data;
-using Examen_ASP.Net.Models;
 
 namespace Examen_ASP.Net.Controllers
 {
@@ -49,15 +47,34 @@ namespace Examen_ASP.Net.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "Id,Name,Email,Password,Phone,Role")] User user)
         {
-
             if (ModelState.IsValid)
             {
-                db.Users.Add(user);
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                // if(isEmailExiste(user.Email))
+                try
+                {
+                    db.Users.Add(user);
+                    db.SaveChanges();
+                    Session["user"] = user;
+                    return RedirectToAction("Index");
+                }
+                catch (Exception ex)
+                {
+                    ViewBag.Message = "Email already Exist";
+                    return View("Create");
+                }
             }
 
             return View(user);
+
+            //db.Users.Add(user);
+            //    db.SaveChanges();
+            //    return RedirectToAction("Index");
+            // return View(user);
+        }
+        public ActionResult Logout()
+        {
+            Session["user"] = null;
+            return RedirectToAction("login");
         }
 
         // GET: Users/Edit/5

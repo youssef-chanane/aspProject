@@ -1,10 +1,79 @@
 ﻿@model IEnumerable<Examen_ASP.Net.Models.User>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h2>Index</h2>
+
+    <div class="content">
+        <div class="row">
+            <div class="col">
+                <div class="block block-rounded">
+                    <div class="block-header block-header-default">
+                        <h3 class="block-title">Users list</h3>
+                        
+                    </div>
+                    <div class="block-content">
+                        <table class="table table-vcenter">
+                            <thead>
+                                <tr>
+                                    <th class="text-center" style="width: 100px;">#</th>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Acount Type</th>
+                                    <th>Status</th>
+                                    <th class="text-center" style="width: 150px;">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+
+                                <tr>
+                                    <th class="text-center" scope="row">
+                                        @Html.DisplayFor(modelItem => item.Id)
+                                    </th>
+                                    <td class="fw-semibold fs-sm">
+                                        @Html.DisplayFor(modelItem => item.Name)
+
+                                    </td>
+                                    <td class="fw-semibold fs-sm">
+                                        @Html.DisplayFor(modelItem => item.Email)
+
+                                    </td>
+
+                                    <!--Acount Type-->
+                                    <td class="fw-semibold fs-sm">
+                                        @Html.DisplayFor(modelItem => item.Role)
+
+                                    </td>
+                                    <!--Status-->
+                                    <td class="fw-semibold fs-sm">
+                                        
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="btn-group">
+
+                                            <a href="@Url.Action("Edit", "Users", new { id=item.Id })" class="btn btn-sm btn-alt-secondary js-bs-tooltip-enabled">
+                                                <i class="fa fa-fw fa-pencil-alt"></i>
+                                            </a>
+                                            <a href="@Url.Action("Delete", "Users", new { id=item.Id })" class="btn btn-sm btn-alt-secondary js-bs-tooltip-enabled">
+                                                <i class="fa fa-fw fa-times"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                }
+                                </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+@*<h2>Index</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -29,29 +98,30 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Email)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Password)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Phone)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Role)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Role)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
 
-</table>
+</table>*@
