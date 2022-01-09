@@ -50,7 +50,24 @@
                                     </td>
                                     <!--Status-->
                                     <td class="fw-semibold fs-sm">
-                                        
+                                        @*@if (item.Favorite == null)
+                                        {
+
+
+                                            <span class="fs-xs fw-semibold d-inline-block py-1 px-3 rounded-pill bg-info-light text-info">none</span>
+
+                                        }
+                                        else
+                                        {
+                                            if (item.Favorite.IsFavorite)
+                                            {
+                                                <span class="fs-xs fw-semibold d-inline-block py-1 px-3 rounded-pill bg-success-light text-success">Favorite</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="fs-xs fw-semibold d-inline-block py-1 px-3 rounded-pill bg-danger-light text-danger">Black Listed</span>
+                                            }
+                                        }*@
                                     </td>
                                     <td class="text-center">
                                         <div class="btn-group">

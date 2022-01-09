@@ -5,89 +5,145 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-    <div class="content">
+<div class="content">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-7">
+            <div class="block block-rounded">
+                <div class="block-header block-header-default">
+                    <h3 class="block-title">Categories list</h3>
+
+                </div>
+                <div class="block-content">
+                    <table class="table table-vcenter">
+                        <thead>
+                            <tr>
+                                <th class="text-center" style="width: 100px;">#</th>
+                                <th>Name</th>
+                                <th class="text-center" style="width: 150px;">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+
+                                <tr>
+                                    <th class="text-center" scope="row">
+                                        @Html.DisplayFor(modelItem => item.Id)
+                                    </th>
+                                    <td class="fw-semibold fs-sm">
+                                        @Html.DisplayFor(modelItem => item.Name)
+
+                                    </td>
+
+                                    <td class="text-center">
+                                        <div class="btn-group">
+
+                                            <a href="@Url.Action("Edit", "Categories", new { id=item.Id })" class="btn btn-sm btn-alt-secondary js-bs-tooltip-enabled">
+                                                <i class="fa fa-fw fa-pencil-alt"></i>
+                                            </a>
+                                            <a href="@Url.Action("Delete", "Categories", new { id=item.Id })" class="btn btn-sm btn-alt-secondary js-bs-tooltip-enabled">
+                                                <i class="fa fa-fw fa-times"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-2"></div>
             <div class="col-7">
                 <div class="block block-rounded">
                     <div class="block-header block-header-default">
-                        <h3 class="block-title">Categories list</h3>
-                        <div class="block-options">
-                            <div class="block-options-item">
-                                <a class="btn btn-alt-success" href="@Url.Action("Create", "Categories")">Create</a>
+                        <h3 class="block-title">Category</h3>
+                    </div>
+                    <div class="block-content block-content-full">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <p class="fs-sm text-muted">
+                                    Add a new Category
+                                </p>
+                            </div>
+                            <div class="col-lg-8 space-y-2">
+                                <form class="row row-cols-lg-auto g-3 align-items-center" action="@Url.Action("Create", "Categories")" method="POST">
+                                    @Html.AntiForgeryToken()
+                                    <div class="col-12">
+                                        <label class="visually-hidden" for="category">Category Name</label>
+                                        <input type="text" class="form-control" id="category" name="Name" >
+                                    </div>
+
+                                    <div>
+                                        <button type="submit" class="btn btn-primary">Create</button>
+                                    </div>
+                                </form>
+
                             </div>
                         </div>
                     </div>
-                    <div class="block-content">
-                        <table class="table table-vcenter">
-                            <thead>
-                                <tr>
-                                    <th class="text-center" style="width: 100px;">#</th>
-                                    <th>Name</th>
-                                    <th class="text-center" style="width: 150px;">Actions</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @foreach (var item in Model)
-                                {
-
-                                    <tr>
-                                        <th class="text-center" scope="row">
-                                            @Html.DisplayFor(modelItem => item.Id)
-                                        </th>
-                                        <td class="fw-semibold fs-sm">
-                                            @Html.DisplayFor(modelItem => item.Name)
-
-                                        </td>
-
-                                        <td class="text-center">
-                                            <div class="btn-group">
-                                             
-                                                <a href="@Url.Action("Edit", "Categories", new { id=item.Id })" class="btn btn-sm btn-alt-secondary js-bs-tooltip-enabled">
-                                                    <i class="fa fa-fw fa-pencil-alt"></i>
-                                                </a>
-                                                <a href="@Url.Action("Delete", "Categories", new { id=item.Id })" class="btn btn-sm btn-alt-secondary js-bs-tooltip-enabled">
-                                                    <i class="fa fa-fw fa-times"></i>
-                                                </a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                }
-                                </tbody>
-                        </table>
+                </div>
+            </div>
+            
+        </div>
+ </div>
+                <!-- Top Block Modal -->
+                <!--<div class="modal" id="modal-block-top" tabindex="-1" role="dialog" aria-labelledby="modal-block-top" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-top" role="document">
+                <div class="modal-content">
+                    <div class="block block-rounded block-transparent mb-0">
+                        <div class="block-header block-header-default">
+                            <h3 class="block-title">Create Category</h3>
+                            <div class="block-options">
+                                <button type="button" class="btn-block-option" data-bs-dismiss="modal" aria-label="Close">
+                                    <i class="fa fa-fw fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="block-content fs-sm">
+                        </div>
+                        <div class="block-content block-content-full text-end bg-body">
+                            <button type="button" class="btn btn-sm btn-alt-secondary me-1" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-sm btn-primary" data-bs-dismiss="modal">Perfect</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-@*@{
-        ViewBag.Title = "Index";
-    }
+        </div>-->
+                <!-- END Top Block Modal -->
 
-    <h2>Index</h2>
+            </div>
+            <script src="~/assets/js/oneui.app.min.js"></script>
+            @*@{
+            ViewBag.Title = "Index";
+        }
 
-    <p>
-        @Html.ActionLink("Create New", "Create")
-    </p>
-    <table class="table">
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th></th>
-        </tr>
+        <h2>Index</h2>
 
-    @foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-                @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-                @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-            </td>
-        </tr>
-    }
+        <p>
+            @Html.ActionLink("Create New", "Create")
+        </p>
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th></th>
+            </tr>
 
-    </table>*@
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+                </td>
+            </tr>
+        }
+
+        </table>*@
