@@ -14,11 +14,7 @@ namespace Examen_ASP.Net.Controllers
     public class UsersController : Controller
     {
         private Examen_ASPNetContext db = new Examen_ASPNetContext();
-        // GET: Login Page
-        public ActionResult Login()
-        {
-            return View(db.Users.ToList());
-        }
+
         // GET: Users
         public ActionResult Index()
         {
@@ -53,6 +49,7 @@ namespace Examen_ASP.Net.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "Id,Name,Email,Password,Phone,Role")] User user)
         {
+
             if (ModelState.IsValid)
             {
                 db.Users.Add(user);
@@ -92,6 +89,43 @@ namespace Examen_ASP.Net.Controllers
                 return RedirectToAction("Index");
             }
             return View(user);
+        }
+        /*
+        // login 
+        */
+        public ActionResult login()
+        {
+
+            return View("Login");
+        }
+        /*
+        // Auth 
+        */
+        public ActionResult auth(string Email, string Password)
+        {
+            var user = db.Users.Where(elt => elt.Email == Email && elt.Password == Password).FirstOrDefault();
+            if (user == null)
+            {
+                ViewBag.errorMessage = "Enter a valide user";
+                // ViewData["errorMessage"] = "Email not Founded";
+                return View("Login");
+            }
+
+            Session["user"] = user;
+            ViewBag.password = user.Password;
+
+            return RedirectToAction("Index");
+        }
+        /*
+        // isAuth() 
+        */
+        public bool isAuth()
+        {
+            if (Session["user"] == null)
+            {
+                return false;
+            }
+            return true;
         }
 
         // GET: Users/Delete/5

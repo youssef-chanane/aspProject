@@ -199,3 +199,4 @@ C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.dll
 C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.pdb
 C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.Migrations.first.resources
 C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.csproj.GenerateResource.cache
+C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.Migrations.loginrequired.resources

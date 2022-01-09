@@ -39,13 +39,14 @@
                             <!-- Sign In Form -->
                             <div class="row g-0 justify-content-center">
                                 <div class="col-sm-8 col-xl-4">
-                                    <form class="js-validation-signin" action="" method="POST">
+                                    <form class="js-validation-signin" action="@Url.Action("auth", "Users")" method="POST">
                                         <div class="mb-4">
-                                            <input type="email" class="form-control form-control-lg form-control-alt py-3" id="signup-email" name="login-email" placeholder="Email">
+                                            <input type="email" class="form-control form-control-lg form-control-alt py-3" id="signup-email" name="Email" placeholder="Email">
                                         </div>
                                         <div class="mb-4">
-                                            <input type="password" class="form-control form-control-lg form-control-alt py-3" id="login-password" name="login-password" placeholder="Password">
+                                            <input type="password" class="form-control form-control-lg form-control-alt py-3" id="login-password" name="Password" placeholder="Password">
                                         </div>
+
                                         <div class="d-flex justify-content-between align-items-center mb-4">
                                             <div>
                                                 <button type="submit" class="btn btn-lg btn-alt-primary">
@@ -53,6 +54,12 @@
                                                 </button>
                                             </div>
                                         </div>
+
+                                        @if (ViewBag.errorMessage != null)
+                                        {
+                                            <div class="alert alert-danger">@ViewBag.errorMessage</div>
+
+                                        }
                                     </form>
                                 </div>
                             </div>

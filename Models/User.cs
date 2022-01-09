@@ -12,13 +12,18 @@ namespace Examen_ASP.Net.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id {  get; set; }
+        public int Id { get; set; }
+        [System.ComponentModel.DataAnnotations.Required]
         public string Name { get; set; }
         [EmailAddress]
-        [System.ComponentModel.DataAnnotations.Schema.Index(IsUnique =true)]
+        [System.ComponentModel.DataAnnotations.Schema.Index(IsUnique = true)]
         [MaxLength(900)]
         public string Email { get; set; }
+        [System.ComponentModel.DataAnnotations.Required]
+
         public String Password { get; set; }
+        [System.ComponentModel.DataAnnotations.Required]
+
         public String Phone { get; set; }
         public string Role { get; set; }
         // Navigations

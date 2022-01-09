@@ -157,6 +157,10 @@
     <Compile Include="Migrations\202201081007494_first.designer.cs">
       <DependentUpon>202201081007494_first.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202201081321469_login-required.cs" />
+    <Compile Include="Migrations\202201081321469_login-required.designer.cs">
+      <DependentUpon>202201081321469_login-required.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Complaint.cs" />
@@ -4578,6 +4582,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202201081007494_first.resx">
       <DependentUpon>202201081007494_first.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202201081321469_login-required.resx">
+      <DependentUpon>202201081321469_login-required.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
