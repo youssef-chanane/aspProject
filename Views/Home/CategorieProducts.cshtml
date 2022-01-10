@@ -1,0 +1,58 @@
+﻿@model Examen_ASP.Net.Models.ViewModel
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<!-- Main Container -->
+<main id="main-container">
+
+    <!-- Page Content -->
+    <div class="content">
+        <div class="row push">
+
+            <div class="col-xl-12 order-xl-0">
+                
+                <h2 class="content-heading">Welcome to @ViewBag.category Category</h2>
+                <div class="row items-push">
+                    <!--one Product-->
+                    @foreach (var item in Model.Products)
+                    {
+
+
+                        <div class="col-md-4 col-xl-4">
+                            <div class="block block-rounded h-100 mb-0">
+                                <div class="block-content p-1">
+                                    <div class="options-container">
+                                        <img class="img-fluid options-item" src="~/assets/media/various/ecom_product6.png" alt="">
+                                        <div class="options-overlay bg-black-75">
+                                            <div class="options-overlay-content">
+                                                <a class="btn btn-sm btn-alt-secondary" href="@Url.Action("Details", "Products", new { id = item.Id })">
+                                                    View
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block-content">
+                                    <div class="mb-1">
+                                        <div class="fw-semibold float-end ms-1">
+                                            <span class="badge rounded-pill bg-danger me-2 px-3">$@Html.DisplayFor(modelItem => item.Discount)</span>
+
+                                            <del>$@Html.DisplayFor(modelItem => item.Price)</del>
+                                        </div>
+                                        <a class="h6" href="">@Html.DisplayFor(modelItem => item.Title)</a>
+                                    </div>
+                                    <p class="fs-sm text-muted">@Html.DisplayFor(modelItem => item.Description)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End of product-->
+                    }
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</main>

@@ -176,6 +176,7 @@
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\Favorite.cs" />
     <Compile Include="Models\User.cs" />
+    <Compile Include="Models\ViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -4485,6 +4486,8 @@
     <Content Include="Views\Shared\_AuthLayout.cshtml" />
     <Content Include="Views\Users\Login.cshtml" />
     <Content Include="Views\Shared\_AdminLayout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\CategorieProducts.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
