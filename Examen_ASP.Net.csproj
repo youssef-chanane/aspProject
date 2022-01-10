@@ -160,6 +160,14 @@
     <Compile Include="Migrations\202201081321469_login-required.designer.cs">
       <DependentUpon>202201081321469_login-required.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202201100001284_favoriteAttr.cs" />
+    <Compile Include="Migrations\202201100001284_favoriteAttr.Designer.cs">
+      <DependentUpon>202201100001284_favoriteAttr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202201100002182_addFavoriteAttr.cs" />
+    <Compile Include="Migrations\202201100002182_addFavoriteAttr.Designer.cs">
+      <DependentUpon>202201100002182_addFavoriteAttr.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Complaint.cs" />
@@ -4585,6 +4593,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202201081321469_login-required.resx">
       <DependentUpon>202201081321469_login-required.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202201100001284_favoriteAttr.resx">
+      <DependentUpon>202201100001284_favoriteAttr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202201100002182_addFavoriteAttr.resx">
+      <DependentUpon>202201100002182_addFavoriteAttr.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

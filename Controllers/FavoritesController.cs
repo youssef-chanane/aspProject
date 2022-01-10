@@ -40,7 +40,7 @@ namespace Examen_ASP.Net.Controllers
         // GET: Favorites/Create
         public ActionResult Create()
         {
-            ViewBag.User_id = new SelectList(db.Users, "Id", "Name");
+            ViewBag.UserId = new SelectList(db.Users, "Id", "Name");
             return View();
         }
 
@@ -49,7 +49,7 @@ namespace Examen_ASP.Net.Controllers
         // plus de détails, consultez https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,IsFavorite,User_id")] Favorite favorite)
+        public ActionResult Create([Bind(Include = "Id,IsFavorite,UserId")] Favorite favorite)
         {
             if (ModelState.IsValid)
             {
@@ -58,7 +58,7 @@ namespace Examen_ASP.Net.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.User_id = new SelectList(db.Users, "Id", "Name", favorite.User_id);
+            ViewBag.UserId = new SelectList(db.Users, "Id", "Name", favorite.UserId);
             return View(favorite);
         }
 
@@ -74,7 +74,7 @@ namespace Examen_ASP.Net.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.User_id = new SelectList(db.Users, "Id", "Name", favorite.User_id);
+            ViewBag.UserId = new SelectList(db.Users, "Id", "Name", favorite.UserId);
             return View(favorite);
         }
 
@@ -83,7 +83,7 @@ namespace Examen_ASP.Net.Controllers
         // plus de détails, consultez https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,IsFavorite,User_id")] Favorite favorite)
+        public ActionResult Edit([Bind(Include = "Id,IsFavorite,UserId")] Favorite favorite)
         {
             if (ModelState.IsValid)
             {
@@ -91,7 +91,7 @@ namespace Examen_ASP.Net.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.User_id = new SelectList(db.Users, "Id", "Name", favorite.User_id);
+            ViewBag.UserId = new SelectList(db.Users, "Id", "Name", favorite.UserId);
             return View(favorite);
         }
 

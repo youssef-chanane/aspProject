@@ -26,8 +26,9 @@ namespace Examen_ASP.Net.Models
 
         public String Phone { get; set; }
         public string Role { get; set; }
+        public string Favorite{ get; set; }
         // Navigations
-        public ICollection<Favorite> Favorites { get; set; }
+        //public  Favorite Favorite { get; set; }
         public ICollection<Product> Products { get; set; }
         public ICollection<Complaint> Complaints { get; set; }
         public ICollection<Message> SellersMessages { get; set; }

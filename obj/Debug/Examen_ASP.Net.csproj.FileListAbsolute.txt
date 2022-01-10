@@ -192,7 +192,6 @@ C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\fr\System.Web.Razor.resources.dll
 C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\fr\System.Web.WebPages.resources.dll
 C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\fr\System.Web.WebPages.Deployment.resources.dll
 C:\Users\sarbo\source\repos\Examen_ASP.Net\bin\fr\System.Web.WebPages.Razor.resources.dll
-C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.csproj.AssemblyReference.cache
 C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.csproj.CoreCompileInputs.cache
 C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.csproj.CopyComplete
 C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.dll
@@ -200,3 +199,6 @@ C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.pdb
 C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.Migrations.first.resources
 C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.csproj.GenerateResource.cache
 C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.Migrations.loginrequired.resources
+C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.Migrations.favoriteAttr.resources
+C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.Migrations.addFavoriteAttr.resources
+C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.csproj.AssemblyReference.cache

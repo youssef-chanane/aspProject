@@ -17,6 +17,5 @@ namespace Examen_ASP.Net.Models
         //Navigation
         public ICollection<Product> Products {  get; set;}
 
-
     }
 }

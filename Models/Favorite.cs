@@ -11,10 +11,11 @@ namespace Examen_ASP.Net.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id {  get; set; }
-        public bool IsFavorite { get;set; }
+        public int Id { get; set; }
+        public bool IsFavorite { get; set; }
         [ForeignKey("User")]
-        public int User_id { get; set; }
+        public int UserId { get; set; }
+        [Required]
         public User User { get; set; }
     }
 }
