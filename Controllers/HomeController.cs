@@ -35,6 +35,7 @@ namespace Examen_ASP.Net.Controllers
         {
             ViewModel model = new ViewModel();
             model.Products = db.Products.Where(product=>product.Category_id==id).ToList();
+            model.Categories = db.Categories.ToList();
             Category category = db.Categories.Find(id);
             ViewBag.category = category.Name;
             //model.Products = db.Products.ToList();

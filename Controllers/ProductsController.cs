@@ -32,16 +32,20 @@ namespace Examen_ASP.Net.Controllers
         // GET: Products/Details/5
         public ActionResult Details(int? id)
         {
+            ViewModel model = new ViewModel();
+
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Product product = db.Products.Find(id);
-            if (product == null)
+            model.Product = db.Products.Find(id);
+            if (model.Product == null)
             {
                 return HttpNotFound();
             }
-            return View(product);
+            model.Categories = db.Categories.ToList();
+            model.User = db.Users.Find(model.Product.User_id);
+            return View(model);
         }
 
         // GET: Products/Create

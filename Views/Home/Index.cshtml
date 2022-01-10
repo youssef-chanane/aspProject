@@ -47,9 +47,11 @@
                                 <li class="nav-item mb-1">
                                     <a class="nav-link d-flex justify-content-between align-items-center" href="@Url.Action("CategorieProducts","Home",new { id=item.Id })">
                                         @Html.DisplayFor(modelItem => item.Name)
-                                        <span class="badge rounded-pill bg-black-50 ms-1">
+                                        
+                                        @*<span class="badge rounded-pill bg-black-50 ms-1">
                                             @Html.DisplayFor(modelItem => item.Products.Count)
-                                        </span>
+                                        </span>*@
+                                        
                                     </a>
                                 </li>
                             }
@@ -84,13 +86,23 @@
                                 <div class="block-content">
                                     <div class="mb-1">
                                         <div class="fw-semibold float-end ms-1">
-                                            <span class="badge rounded-pill bg-danger me-2 px-3">$@Html.DisplayFor(modelItem => item.Discount)</span>
+                                            @if (@item.Price > @item.Discount)
+                                            {
+                                                <del>$@item.Price</del>
 
-                                            <del>$@Html.DisplayFor(modelItem => item.Price)</del>
+                                                <span class="badge rounded-pill bg-danger me-2 px-3"> $@item.Discount</span>
+                                            }
+                                            else
+                                            {
+                                                <span>$@item.Price</span>
+
+
+                                            }
+                                            
                                         </div>
-                                        <a class="h6" href="be_pages_ecom_store_product.html">@Html.DisplayFor(modelItem => item.Title)</a>
+                                        <a class="h6" href="be_pages_ecom_store_product.html">@item.Title</a>
                                     </div>
-                                    <p class="fs-sm text-muted">@Html.DisplayFor(modelItem => item.Description)</p>
+                                    <p class="fs-sm text-muted">@item.Description</p>
                                 </div>
                             </div>
                         </div>
@@ -128,13 +140,23 @@
                                 <div class="block-content">
                                     <div class="mb-1">
                                         <div class="fw-semibold float-end ms-1">
-                                            <span class="badge rounded-pill bg-danger me-2 px-3">$@Html.DisplayFor(modelItem => item.Discount)</span>
+                                            @if (@item.Price > @item.Discount)
+                                            {
+                                                <del>$@item.Price</del>
 
-                                            <del>$@Html.DisplayFor(modelItem => item.Price)</del>
+                                                <span class="badge rounded-pill bg-danger me-2 px-3"> $@item.Discount</span>
+                                            }
+                                            else
+                                            {
+                                                <span>$@item.Price</span>
+
+
+                                            }
+
                                         </div>
-                                        <a class="h6" href="be_pages_ecom_store_product.html">@Html.DisplayFor(modelItem => item.Title)</a>
+                                        <a class="h6" href="be_pages_ecom_store_product.html">@item.Title</a>
                                     </div>
-                                    <p class="fs-sm text-muted">@Html.DisplayFor(modelItem => item.Description)</p>
+                                    <p class="fs-sm text-muted">@item.Description</p>
                                 </div>
                             </div>
                         </div>
