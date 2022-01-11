@@ -111,18 +111,15 @@ namespace Examen_ASP.Net.Controllers
         public ActionResult DeleteConfirmed(int id)
         {
             Category category = db.Categories.Find(id);
+            var products = db.Products.Where(p => p.Category_id == category.Id);
+            foreach (var product in products)
+            {
+                db.Products.Remove(product);
+            }
             db.Categories.Remove(category);
             db.SaveChanges();
+            ViewBag.messageSuccess = "Category was Removed successfully";
             return RedirectToAction("Index");
-        }
-
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
         }
     }
 }

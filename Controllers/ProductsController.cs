@@ -151,17 +151,19 @@ namespace Examen_ASP.Net.Controllers
                 var a = db.Products.Where(elt => elt.Title == Title && elt.Description == Description && elt.Address == Address && elt.Status == Status).FirstOrDefault();
                 ViewBag.id = a.Id;
 
+                double k = 1;
                 foreach (var file in obj.files)
                 {
+                    DateTime time = DateTime.Now;
 
-                    filename = Path.GetFileName(file.FileName);
+                    filename = Path.GetFileName(time.ToString() + k + file.FileName);
                     path = Path.Combine(Server.MapPath("/uploads/"), filename);
-
                     file.SaveAs(path);
                     image.Path = filename;
                     image.Product = product;
                     db.Images.Add(image);
                     db.SaveChanges();
+                    k++;
 
                 }
                 return RedirectToAction("Index");
