@@ -84,7 +84,15 @@
     @RenderBody()
 
 
+<footer class="d-flex justify-content-end position-fixed bottom-0 end-0">
+    <a href="@Url.Action("Index","complaints")" class="btn btn-sm btn-warning me-4 mb-4">
+        <i class="fa fa-fw fa-exclamation-circle"></i>
+    </a>
+    @*<button>
+        <i class="nav-main-link-icon fa fa-question"></i>
+    </button>*@
 
+</footer>
     @*@Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)*@

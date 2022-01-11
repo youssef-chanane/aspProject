@@ -19,6 +19,11 @@ namespace Examen_ASP.Net.Controllers
         public ActionResult Index()
         {
             var complaints = db.Complaints.Include(c => c.User);
+            if (Session["user"] != null)
+            {
+                User user = (User)Session["user"];
+                ViewBag.Role = user.Role;
+            }
             return View(complaints.ToList());
         }
 
@@ -41,6 +46,10 @@ namespace Examen_ASP.Net.Controllers
         public ActionResult Create()
         {
             ViewBag.User_id = new SelectList(db.Users, "Id", "Name");
+            if (Session["user"] == null)
+            {
+                return RedirectToAction("Login", "Users");
+            }
             return View();
         }
 
@@ -49,17 +58,23 @@ namespace Examen_ASP.Net.Controllers
         // plus de détails, consultez https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Question,Answer,User_id")] Complaint complaint)
+        public ActionResult Create(string Question)
         {
+            Complaint complaint = new Complaint();
+            if (Session["user"] == null)
+            {
+                return RedirectToAction("Login", "Users");
+            }
             if (ModelState.IsValid)
             {
+                User user;
+                user = (User)Session["user"];
+                complaint.User_id = user.Id;
+                complaint.Question = Question;
                 db.Complaints.Add(complaint);
                 db.SaveChanges();
-                return RedirectToAction("Index");
             }
-
-            ViewBag.User_id = new SelectList(db.Users, "Id", "Name", complaint.User_id);
-            return View(complaint);
+            return RedirectToAction("Index");
         }
 
         // GET: Complaints/Edit/5
@@ -83,16 +98,17 @@ namespace Examen_ASP.Net.Controllers
         // plus de détails, consultez https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Question,Answer,User_id")] Complaint complaint)
+        public ActionResult Edit(int? Id,string Answer)
         {
+            Complaint complaint = db.Complaints.Find(Id);
             if (ModelState.IsValid)
             {
-                db.Entry(complaint).State = EntityState.Modified;
+                complaint.Answer = Answer;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.User_id = new SelectList(db.Users, "Id", "Name", complaint.User_id);
-            return View(complaint);
+            //ViewBag.User_id = new SelectList(db.Users, "Id", "Name", complaint.User_id);
+            return View("Index");
         }
 
         // GET: Complaints/Delete/5

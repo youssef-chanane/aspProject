@@ -1,6 +1,7 @@
 ﻿using Examen_ASP.Net.Data;
 using Examen_ASP.Net.Models;
 using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
 using System.Linq;
@@ -18,7 +19,31 @@ namespace Examen_ASP.Net.Controllers
         {
             return View(db.Users.ToList());
         }
+        public ActionResult profile()
+        {
+            if (Session["user"] == null)
+            {
+                return RedirectToAction("login");
+            }
+            User authUser = (User)Session["user"];
+            //if (!db.Users.Contains(authUser))
+            //{
+            //    return HttpNotFound();
+            //}
+            var product = db.Products.Where(elt => elt.User_id == authUser.Id);
+            ViewModel model = new ViewModel();
+            model.User = authUser;
+            List<Product> prd = new List<Product>();
+            foreach (var item in product)
+            {
+                prd.Add(item);
+            }
+            model.Products = prd;
+            ViewBag.products = product.Count();
 
+            return View(model);
+
+        }
         // GET: Users/Details/5
         public ActionResult Details(int? id)
         {
@@ -130,8 +155,14 @@ namespace Examen_ASP.Net.Controllers
 
             Session["user"] = user;
             ViewBag.password = user.Password;
-
-            return RedirectToAction("Index");
+            if (user.Role == "admin")
+            {
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return RedirectToAction("Index", "Home");
+            }
         }
         /*
         // isAuth() 
