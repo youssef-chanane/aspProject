@@ -60,6 +60,7 @@
         </ul>
         <ul class="flex-row-reverse flex-fill align-self-end d-flex nav-main-dark mx-4 m-0">
             <li class="nav-main-item flex-row-reverse">
+
                 @if (Session["user"] == null)
                 {
                     <a class="nav-main-link active" href="@Url.Action("Login", "Users")">
@@ -73,6 +74,11 @@
                         <i class="nav-main-link-icon fa fa-sign-out-alt"></i>
                         <span class="nav-main-link-name">Logout</span>
                     </a>
+                    <a class="nav-main-link active" href="@Url.Action("Profile", "Users")">
+                        <i class="nav-main-link-icon fa fa-user"></i>
+                        <span class="nav-main-link-name">Profile</span>
+                    </a>
+
                 }
             </li>
         </ul>

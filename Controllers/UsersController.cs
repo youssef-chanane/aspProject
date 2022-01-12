@@ -19,31 +19,7 @@ namespace Examen_ASP.Net.Controllers
         {
             return View(db.Users.ToList());
         }
-        public ActionResult profile()
-        {
-            if (Session["user"] == null)
-            {
-                return RedirectToAction("login");
-            }
-            User authUser = (User)Session["user"];
-            //if (!db.Users.Contains(authUser))
-            //{
-            //    return HttpNotFound();
-            //}
-            var product = db.Products.Where(elt => elt.User_id == authUser.Id);
-            ViewModel model = new ViewModel();
-            model.User = authUser;
-            List<Product> prd = new List<Product>();
-            foreach (var item in product)
-            {
-                prd.Add(item);
-            }
-            model.Products = prd;
-            ViewBag.products = product.Count();
-
-            return View(model);
-
-        }
+ 
         // GET: Users/Details/5
         public ActionResult Details(int? id)
         {
@@ -209,6 +185,58 @@ namespace Examen_ASP.Net.Controllers
                 db.Dispose();
             }
             base.Dispose(disposing);
+        }
+        public ActionResult profile()
+        {
+            if (Session["user"] == null)
+            {
+                return RedirectToAction("login");
+            }
+            User user = (User)Session["user"];
+
+            var product = db.Products.Where(elt => elt.User_id == user.Id);
+            var msg = db.Messages.Where(elt => elt.Seller_id == user.Id);
+            ViewModel model = new ViewModel();
+            model.User = user;
+            List<Product> prd = new List<Product>();
+            List<ProfileInfo> prf = new List<ProfileInfo>();
+
+            foreach (var item in product)
+            {
+                prd.Add(item);
+            }
+            foreach (var itm in msg)
+            {
+                ProfileInfo pr = new ProfileInfo();
+                //if (itm.IsRepliyed)
+                //{
+                //    pr.Text = itm.Text;
+                //    var photo = db.Images.First(elt => elt.Product_id == itm.Product_id);
+                //    pr.Path = photo.Path;
+                //    pr.Buyer_id= (int)itm.Buyer_id;
+                //    pr.Id=itm.Id;
+                //    var usr = db.Users.Where(elt => elt.Id == itm.Buyer_id).FirstOrDefault();
+                //    pr.UserName = usr.Name;
+                //    prf.Add(pr);
+                //}
+                if (itm.Answer == null)
+                {
+                    pr.Text = itm.Text;
+                    var photo = db.Images.First(elt => elt.Product_id == itm.Product_id);
+                    pr.Path = photo.Path;
+                    pr.Buyer_id = (int)itm.Buyer_id;
+                    pr.Id = itm.Id;
+                    var usr = db.Users.Where(elt => elt.Id == itm.Buyer_id).FirstOrDefault();
+                    pr.UserName = usr.Name;
+                    prf.Add(pr);
+                }
+
+            }
+            model.ProfileInfos = prf;
+            model.Products = prd;
+            ViewBag.products = product.Count();
+            return View(model);
+
         }
     }
 }

@@ -21,7 +21,7 @@
                                 <th>Email</th>
                                 <th>Acount Type</th>
                                 <th>Status</th>
-                                <th class="text-center" style="width: 150px;">Actions</th>
+                                <th class="text-center" style="width: 150px;">Delete</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -70,12 +70,10 @@
                     <td class="text-center">
                         <input type="hidden" value=" @Html.DisplayFor(modelItem => item.Id)" class="categoryId" id="categoryId">
                         <div class="btn-group">
-                            <a href="@Url.Action("Edit", "Users", new { id=item.Id })" class="btn btn-sm btn-alt-secondary js-bs-tooltip-enabled">
-                                <i class="fa fa-fw fa-pencil-alt"></i>
-                            </a>
-                            <a href="" type="button" class="btn btn-sm btn-alt-secondary js-bs-tooltip-enabled modelButton " data-bs-toggle="modal" data-bs-target="#modal-block-vcenter">
+                            
+                            <button type="button" class="btn btn-sm btn-alt-secondary js-bs-tooltip-enabled modelButton " data-bs-toggle="modal" data-bs-target="#modal-block-vcenter">
                                 <i class="fa fa-fw fa-times"></i>
-                            </a>
+                            </button>
                         </div>
                     </td>
                 </tr>}

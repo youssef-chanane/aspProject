@@ -168,6 +168,10 @@
     <Compile Include="Migrations\202201100002182_addFavoriteAttr.Designer.cs">
       <DependentUpon>202201100002182_addFavoriteAttr.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202201112152345_message modif.cs" />
+    <Compile Include="Migrations\202201112152345_message modif.Designer.cs">
+      <DependentUpon>202201112152345_message modif.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Complaint.cs" />
@@ -4603,6 +4607,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202201100002182_addFavoriteAttr.resx">
       <DependentUpon>202201100002182_addFavoriteAttr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202201112152345_message modif.resx">
+      <DependentUpon>202201112152345_message modif.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

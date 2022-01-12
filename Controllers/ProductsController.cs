@@ -33,6 +33,11 @@ namespace Examen_ASP.Net.Controllers
         public ActionResult Details(int? id)
         {
             ViewModel model = new ViewModel();
+            if (Session["user"] != null)
+            {
+                User user = (User)Session["user"];
+                ViewBag.authId = user.Id;
+            }
 
             if (id == null)
             {
@@ -43,8 +48,10 @@ namespace Examen_ASP.Net.Controllers
             {
                 return HttpNotFound();
             }
+            model.images = db.Images.Where(elt => elt.Product_id == id);
             model.Categories = db.Categories.ToList();
             model.User = db.Users.Find(model.Product.User_id);
+
             return View(model);
         }
 

@@ -202,3 +202,4 @@ C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.Migrations.l
 C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.Migrations.favoriteAttr.resources
 C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.Migrations.addFavoriteAttr.resources
 C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.csproj.AssemblyReference.cache
+C:\Users\sarbo\source\repos\Examen_ASP.Net\obj\Debug\Examen_ASP.Net.Migrations.messagemodif.resources

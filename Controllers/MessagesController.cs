@@ -56,7 +56,7 @@ namespace Examen_ASP.Net.Controllers
             {
                 db.Messages.Add(message);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Details","Products");
             }
 
             ViewBag.Buyer_id = new SelectList(db.Users, "Id", "Name", message.Buyer_id);

@@ -15,9 +15,15 @@ namespace Examen_ASP.Net.Models
         public string Text { get; set; }
         [ForeignKey("Seller")]
         public int Seller_id { get; set; }
-        public virtual  User Seller { get; set; }
+        public virtual User Seller { get; set; }
         [ForeignKey("Buyer")]
-        public int ?  Buyer_id { get; set; }
+        public int? Buyer_id { get; set; }
         public virtual User Buyer { get; set; }
+        [ForeignKey("Product")]
+        public int Product_id { get; set; }
+        public Product Product { get; set; }
+        public bool IsRepliyed { get; set; }
+        public string Answer { get; set; }
+
     }
-} 
+}
